@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ConcreteCrack
+Version: 0.0.0
+Summary: A small python package for concrete crack classification.
+Home-page: https://github.com/junayed/ConcreteCrack
+Author: junayed
+Author-email: junhasan@gmail.com
+Project-URL: Bug Tracker, https://github.com/junayed/ConcreteCrack/issues
+License-File: LICENSE
+
+# ConcreteCrack
+End-to-End DL project demo
