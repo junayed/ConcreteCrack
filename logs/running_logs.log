@@ -1,2 +1,38 @@
 [2024-05-13 15:46:51,424: INFO: test: Welcome to our custome log.]
 [2024-05-13 15:47:17,205: INFO: test: Welcome to our custome log.]
+[2024-05-16 11:51:49,397: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2024-05-16 11:51:49,409: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-16 11:51:49,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-16 11:51:49,418: INFO: common: created directory at: artifcats]
+[2024-05-16 11:51:49,419: INFO: common: created directory at: artifcats/data_ingestion]
+[2024-05-16 11:51:49,419: INFO: data_ingestion: Trying to download file...]
+[2024-05-16 11:51:49,420: INFO: data_ingestion: Download started...]
+[2024-05-16 11:51:51,820: INFO: data_ingestion: artifcats/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23868313
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c62ba7995a87ab5163b239aa1820dcf97b36d0763cb969e1dadb2e52142400e9"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 08AE:6DB98:29E391:336D9F:6645E545
+Accept-Ranges: bytes
+Date: Thu, 16 May 2024 10:51:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lon4251-LON
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1715856710.369957,VS0,VE1149
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c895ac2961dc3f1cb7577b2179319defea40883b
+Expires: Thu, 16 May 2024 10:56:51 GMT
+Source-Age: 1
+
+]
+[2024-05-16 11:51:51,820: INFO: data_ingestion: unzipping file and removing unawanted files]
+[2024-05-16 11:51:52,096: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<]

@@ -1,0 +1,1 @@
+from ConcreteCrack.entity.config_entity import (DataIngestionConfig)
